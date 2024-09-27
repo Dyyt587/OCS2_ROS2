@@ -1,32 +1,28 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
+CMakeFiles/
+CMakeCache.txt
 *.a
-*.lib
-
-# Executables
-*.exe
+*.o
+*.so
+Makefile
+.project
+.idea/
+.cproject
+*~
+*.settings*
+*/doc/html/
+Doxyfile
+*.orig
+*.tag
+*.tmp
+*.swp
+__pycache__
+*.pyc
+*.pydevproject
+ocs2_core/test/cppad_cg/testCppADCG_generated/
+ocs2_ddp/test/ddp_test_generated/
+*.aux
+*.log
 *.out
-*.app
+*.synctex.gz
+.vscode/
+runs/
